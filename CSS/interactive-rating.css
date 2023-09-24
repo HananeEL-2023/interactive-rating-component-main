@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  color: white;
+}
+.popup {
+  background-color: hsl(213, 19%, 18%);
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+  visibility: hidden;
+}
+.result-message {
+  color: hsl(25, 97%, 53%);
+}
+.title {
+  color: hsl(0, 0%, 100%);
+}
+.paragraph {
+  color: hsl(217, 12%, 63%);
+}
