@@ -1,12 +1,12 @@
 const form = document.getElementById("form");
-const buttons = document.querySelectorAll(".btn");
+const buttons = document.querySelectorAll(".input-label .btn");
 const submitBtn = document.getElementById("submit");
 const result = document.getElementById("result");
 const popup = document.getElementById("popup");
 let ratingClicked = "";
 
 function handleClick() {
-  ratingClicked = this.dataset.rating;
+  ratingClicked = this.value;
 }
 buttons.forEach((button) => button.addEventListener("click", handleClick));
 
