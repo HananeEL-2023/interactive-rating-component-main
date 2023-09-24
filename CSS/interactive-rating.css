@@ -8,6 +8,26 @@ body {
   font-family: "Overpass", sans-serif;
   color: white;
 }
+#form {
+  display: flex;
+}
+.btn {
+  border: 1px solid hsl(217, 12%, 63%);
+  display: none;
+}
+.label {
+  padding: 2px;
+  border: 1px solid hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+#radio1:checked ~ radio1,
+#radio2:checked ~ radio2,
+#radio3:checked ~ radio3,
+#radio4:checked ~ radio4,
+#radio5:checked ~ radio5 {
+  color: red;
+}
+
 .popup {
   background-color: hsl(213, 19%, 18%);
   width: 30%;
